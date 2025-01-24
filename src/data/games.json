@@ -3,7 +3,196 @@
     "id": 1,
     "title": "MiSide",
     "description": "This is a description of Game 1.",
-    "image": "/images/Miside.jpg",
+    "image": "Images/Miside.jpg",
+    "genre": "Horror",
+    "dateCompleted": "6th January",
+    "tags": ["Horror", "DatingSim"]
+  },
+  {
+    "id": 2,
+    "title": "Game Title 2",
+    "description": "This is a description of Game 2.",
+    "image": "/images/test.png",
+    "genre": "Adventure",
+    "dateCompleted": "2022-10-08",
+    "tags": ["adventure", "exploration", "puzzle"]
+  },
+  {
+    "id": 3,
+    "title": "Game Title 3",
+    "description": "This is a description of Game 3.",
+    "image": "/images/game3.jpg",
+    "genre": "RPG",
+    "dateCompleted": "2021-06-21",
+    "tags": ["rpg", "fantasy", "singleplayer"]
+  },
+  {
+    "id": 1,
+    "title": "MiSide",
+    "description": "This is a description of Game 1.",
+    "image": "Images/Miside.jpg",
+    "genre": "Horror",
+    "dateCompleted": "6th January",
+    "tags": ["Horror", "DatingSim"]
+  },
+  {
+    "id": 2,
+    "title": "Game Title 2",
+    "description": "This is a description of Game 2.",
+    "image": "/images/test.png",
+    "genre": "Adventure",
+    "dateCompleted": "2022-10-08",
+    "tags": ["adventure", "exploration", "puzzle"]
+  },
+  {
+    "id": 3,
+    "title": "Game Title 3",
+    "description": "This is a description of Game 3.",
+    "image": "/images/game3.jpg",
+    "genre": "RPG",
+    "dateCompleted": "2021-06-21",
+    "tags": ["rpg", "fantasy", "singleplayer"]
+  },
+  {
+    "id": 1,
+    "title": "MiSide",
+    "description": "This is a description of Game 1.",
+    "image": "Images/Miside.jpg",
+    "genre": "Horror",
+    "dateCompleted": "6th January",
+    "tags": ["Horror", "DatingSim"]
+  },
+  {
+    "id": 2,
+    "title": "Game Title 2",
+    "description": "This is a description of Game 2.",
+    "image": "/images/test.png",
+    "genre": "Adventure",
+    "dateCompleted": "2022-10-08",
+    "tags": ["adventure", "exploration", "puzzle"]
+  },
+  {
+    "id": 3,
+    "title": "Game Title 3",
+    "description": "This is a description of Game 3.",
+    "image": "/images/game3.jpg",
+    "genre": "RPG",
+    "dateCompleted": "2021-06-21",
+    "tags": ["rpg", "fantasy", "singleplayer"]
+  },
+  {
+    "id": 1,
+    "title": "MiSide",
+    "description": "This is a description of Game 1.",
+    "image": "Images/Miside.jpg",
+    "genre": "Horror",
+    "dateCompleted": "6th January",
+    "tags": ["Horror", "DatingSim"]
+  },
+  {
+    "id": 2,
+    "title": "Game Title 2",
+    "description": "This is a description of Game 2.",
+    "image": "/images/test.png",
+    "genre": "Adventure",
+    "dateCompleted": "2022-10-08",
+    "tags": ["adventure", "exploration", "puzzle"]
+  },
+  {
+    "id": 3,
+    "title": "Game Title 3",
+    "description": "This is a description of Game 3.",
+    "image": "/images/game3.jpg",
+    "genre": "RPG",
+    "dateCompleted": "2021-06-21",
+    "tags": ["rpg", "fantasy", "singleplayer"]
+  },
+  {
+    "id": 1,
+    "title": "MiSide",
+    "description": "This is a description of Game 1.",
+    "image": "Images/Miside.jpg",
+    "genre": "Horror",
+    "dateCompleted": "6th January",
+    "tags": ["Horror", "DatingSim"]
+  },
+  {
+    "id": 2,
+    "title": "Game Title 2",
+    "description": "This is a description of Game 2.",
+    "image": "/images/test.png",
+    "genre": "Adventure",
+    "dateCompleted": "2022-10-08",
+    "tags": ["adventure", "exploration", "puzzle"]
+  },
+  {
+    "id": 3,
+    "title": "Game Title 3",
+    "description": "This is a description of Game 3.",
+    "image": "/images/game3.jpg",
+    "genre": "RPG",
+    "dateCompleted": "2021-06-21",
+    "tags": ["rpg", "fantasy", "singleplayer"]
+  },
+  {
+    "id": 1,
+    "title": "MiSide",
+    "description": "This is a description of Game 1.",
+    "image": "Images/Miside.jpg",
+    "genre": "Horror",
+    "dateCompleted": "6th January",
+    "tags": ["Horror", "DatingSim"]
+  },
+  {
+    "id": 2,
+    "title": "Game Title 2",
+    "description": "This is a description of Game 2.",
+    "image": "/images/test.png",
+    "genre": "Adventure",
+    "dateCompleted": "2022-10-08",
+    "tags": ["adventure", "exploration", "puzzle"]
+  },
+  {
+    "id": 3,
+    "title": "Game Title 3",
+    "description": "This is a description of Game 3.",
+    "image": "/images/game3.jpg",
+    "genre": "RPG",
+    "dateCompleted": "2021-06-21",
+    "tags": ["rpg", "fantasy", "singleplayer"]
+  },
+  {
+    "id": 1,
+    "title": "MiSide",
+    "description": "This is a description of Game 1.",
+    "image": "Images/Miside.jpg",
+    "genre": "Horror",
+    "dateCompleted": "6th January",
+    "tags": ["Horror", "DatingSim"]
+  },
+  {
+    "id": 2,
+    "title": "Game Title 2",
+    "description": "This is a description of Game 2.",
+    "image": "/images/test.png",
+    "genre": "Adventure",
+    "dateCompleted": "2022-10-08",
+    "tags": ["adventure", "exploration", "puzzle"]
+  },
+  {
+    "id": 3,
+    "title": "Game Title 3",
+    "description": "This is a description of Game 3.",
+    "image": "/images/game3.jpg",
+    "genre": "RPG",
+    "dateCompleted": "2021-06-21",
+    "tags": ["rpg", "fantasy", "singleplayer"]
+  },
+  {
+    "id": 1,
+    "title": "MiSide",
+    "description": "This is a description of Game 1.",
+    "image": "Images/Miside.jpg",
     "genre": "Horror",
     "dateCompleted": "6th January",
     "tags": ["Horror", "DatingSim"]
