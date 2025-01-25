@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/GameGallery/static/css/main.6f55698b.css",
-    "main.js": "/GameGallery/static/js/main.09d9d4f7.js",
+    "main.css": "/GameGallery/static/css/main.1fcf6dfe.css",
+    "main.js": "/GameGallery/static/js/main.3f981b4a.js",
     "static/js/488.5659eb0f.chunk.js": "/GameGallery/static/js/488.5659eb0f.chunk.js",
+    "static/media/test.png": "/GameGallery/static/media/test.8e40df925516a7d37327.png",
+    "static/media/Miside.jpg": "/GameGallery/static/media/Miside.3a1e96d4b7c0050c5af0.jpg",
     "index.html": "/GameGallery/index.html",
-    "main.6f55698b.css.map": "/GameGallery/static/css/main.6f55698b.css.map",
-    "main.09d9d4f7.js.map": "/GameGallery/static/js/main.09d9d4f7.js.map",
+    "main.1fcf6dfe.css.map": "/GameGallery/static/css/main.1fcf6dfe.css.map",
+    "main.3f981b4a.js.map": "/GameGallery/static/js/main.3f981b4a.js.map",
     "488.5659eb0f.chunk.js.map": "/GameGallery/static/js/488.5659eb0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f55698b.css",
-    "static/js/main.09d9d4f7.js"
+    "static/css/main.1fcf6dfe.css",
+    "static/js/main.3f981b4a.js"
   ]
 }
