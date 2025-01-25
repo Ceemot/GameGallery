@@ -1,15 +1,14 @@
-import './App.css';
 import React from 'react';
-import Gallery from './Components/Gallery';  // Import the Gallery component
+import Gallery from './Components/Gallery';
+import './App.css';
 
 const App = () => {
-  
   return (
     <div className="App">
-      <h1 className="text-center my-4">Game Gallery</h1>
-      <Gallery /> {/* Render the Gallery component here */}
+      <h1 className="text-center">Game Gallery</h1>
+      <Gallery />
     </div>
   );
-}
+};
 
 export default App;

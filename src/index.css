@@ -1,12 +1,19 @@
-/* src/index.css */
+/* Base Styles */
+body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-/* Import Tailwind’s base styles */
-@tailwind base;
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
 
-/* Import Tailwind’s component styles */
-@tailwind components;
+.my-4 {
+  margin: 16px 0;
+}
 
-/* Import Tailwind’s utility classes */
-@tailwind utilities;
-
-/* Optional: Add your custom global styles if needed */
+/* Add additional styles as needed */

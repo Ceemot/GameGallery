@@ -1,155 +1,143 @@
-html {
-  color-scheme: dark;
-}
-
+/* Global Styles */
 body {
-  font-family: Arial, sans-serif;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #121212;
+  color: white;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Dark mode styles (default) */
-body.dark-mode {
-  background-color: #121212; /* Dark background */
-  color: white; /* Light text color */
-}
-
-/* Light mode styles */
-body.light-mode {
-  background-color: white;
-  color: black;
-}
-
-/* Dark mode modal adjustments */
-body.dark-mode .modal-content {
-  background-color: #1f1f1f; /* Darker modal background */
-}
-
-body.dark-mode .close-button {
-  color: #ccc; /* Lighter close button */
-}
-
-/* Game card in dark mode */
-body.dark-mode .game-card {
-  background-color: #2c2c2c;
-}
-
-body.dark-mode .game-title {
+/* Header Styles */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5rem;
   color: #f0f0f0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Search Bar */
+.search-bar {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 15px;
+  width: 80%;
+  max-width: 400px;
+  font-size: 16px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #1e1e1e;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
 }
 
+/* Gallery Container */
+.gallery-container {
+  padding: 20px 20%;
+  text-align: center;
+}
+
+/* Gallery Grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    200px
+  ); /* Fixed width for each card */
+  justify-content: center; /* Center the grid items */
+  gap: 20px; /* Space between items */
+}
+
+/* Game Card */
+.game-card {
+  width: 200px; /* Fixed width */
+  height: 300px; /* Fixed height */
+  background-color: #1e1e1e; /* Dark background for the card */
+  color: white; /* Light text */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensure content stays inside */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  cursor: pointer;
+}
+
+.game-card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4); /* More prominent shadow */
+}
+
+/* Game Image */
+.game-image {
+  width: 100%; /* Ensure it fits the card's width */
+  height: 60%; /* Take 60% of the card height */
+  object-fit: cover; /* Crop and fit the image */
+}
+
+/* Game Title */
+.game-title {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #2c2c2c; /* Slightly darker background for the title */
+  color: #f0f0f0; /* Light text */
+  height: 40%; /* Remaining 40% for the title */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal */
 .modal {
-  position: fixed; /* Makes the modal appear above everything else */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999; /* Ensure the modal appears above all content */
+  z-index: 9999;
 }
 
-.gallery-container {
-  text-align: center;
+.modal-content {
+  background-color: #1f1f1f;
+  color: white;
+  border-radius: 8px;
   padding: 20px;
-}
-
-/* Search bar styling */
-.search-bar {
-  padding: 10px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  width: 80%;
   max-width: 500px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  width: 90%;
+  text-align: left;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
 }
 
-.gallery-container {
-  padding-left: 20%; /* Adds 20% padding on the left */
-  padding-right: 20%; /* Adds 20% padding on the right */
-}
-
-/* Gallery Grid Styling */
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(200px, 1fr)
-  ); /* Responsive grid */
-  gap: 2rem; /* 20px gap between items */
-}
-
-/* Game Card Styling */
-.game-card {
-  background-color: white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.game-card:hover {
-  transform: scale(1.1); /* Hover effect */
-}
-
-.game-image {
+.modal-image {
   width: 100%;
   height: 200px;
   object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
-.game-title {
-  padding: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  color: #333;
-}
-
-.App {
-  text-align: center;
-  color-scheme: dark light;
-}
-
-.dark-mode-toggle {
-  background-color: #61dafb;
+.close-button {
+  display: inline-block;
   padding: 10px 20px;
-  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
   border: none;
-  font-size: 16px;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
 }
 
-.dark-mode-toggle:hover {
-  background-color: #4fa3d1;
+.close-button:hover {
+  background-color: #0056b3;
 }

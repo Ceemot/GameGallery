@@ -1,28 +1,39 @@
 import React, { useEffect } from 'react';
+import { getImagePath } from '../utils';
 
 const Modal = ({ game, close }) => {
   useEffect(() => {
     const handleEscape = (e) => {
       if (e.key === 'Escape') {
-        close();  // Close the modal when Escape is pressed
+        close(); // Close modal on Escape key press
       }
     };
 
-    // Attach the event listener
     window.addEventListener('keydown', handleEscape);
-
-    // Cleanup the event listener when the component is unmounted
     return () => {
       window.removeEventListener('keydown', handleEscape);
     };
   }, [close]);
+
   return (
     <div className="modal" onClick={close}>
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="modal-content"
+        onClick={(e) => e.stopPropagation()} // Prevent click propagation to close modal
+      >
         <h2>{game.title}</h2>
-        <img src={game.image} alt={game.title} className="modal-image" />
-        <p><strong>Genre:</strong> {game.genre}</p>
-        <p><strong>Date Completed:</strong> {game.dateCompleted || "Not Completed"}</p>
+        <img
+  src={getImagePath(game.image)} // Use utility function
+  alt={game.title}
+  className="modal-image"
+/>
+        <p>
+          <strong>Genre:</strong> {game.genre}
+        </p>
+        <p>
+          <strong>Date Completed:</strong>{' '}
+          {game.dateCompleted || 'Not Completed'}
+        </p>
         <p>{game.description}</p>
       </div>
     </div>
@@ -30,4 +41,3 @@ const Modal = ({ game, close }) => {
 };
 
 export default Modal;
-
