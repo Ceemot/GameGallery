@@ -1,19 +1,11 @@
-/* Base Styles */
-body {
-  background-color: #121212;
-  color: white;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* Utility Classes */
-.text-center {
-  text-align: center;
+@layer base {
+  html,
+  body {
+    @apply m-0 p-0 bg-[#121212] text-white font-sans;
+    height: 100%; /* optional, helps ensure full page coverage */
+  }
 }
-
-.my-4 {
-  margin: 16px 0;
-}
-
-/* Add additional styles as needed */
