@@ -6,19 +6,20 @@ import { getImagePath } from "../utils";
 const Gallery = ({ gamesData }) => {
   const [games, setGames] = useState([]);
   const [filteredGames, setFilteredGames] = useState([]);
-
-  // 1. Track the searchTerm in local state:
   const [searchTerm, setSearchTerm] = useState("");
-
+  const [show100Percent, setShow100Percent] = useState(false);
   const [selectedGame, setSelectedGame] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
-  // 2. Whenever `gamesData` changes (i.e., user navigates to a different route),
-  //    reset the search bar and the game lists:
   useEffect(() => {
-    setSearchTerm(""); // Clear the search bar
-    setGames(gamesData); // Load the new data
-    setFilteredGames(gamesData); // Filtered = entire dataset by default
+    document.body.style.overflowY = "scroll";
+    setSearchTerm("");
+    setGames(gamesData);
+    setFilteredGames(gamesData);
+
+    return () => {
+      document.body.style.overflowY = "";
+    };
   }, [gamesData]);
 
   const openModal = (game) => {
@@ -31,70 +32,98 @@ const Gallery = ({ gamesData }) => {
     setSelectedGame(null);
   };
 
-  // 3. Update filtered games whenever `searchTerm` changes:
   useEffect(() => {
-    if (!searchTerm.trim()) {
-      setFilteredGames(games);
-    } else {
-      const filtered = games.filter((game) =>
+    let filtered = games;
+
+    // Filter by title
+    if (searchTerm.trim()) {
+      filtered = filtered.filter((game) =>
         game.title.toLowerCase().includes(searchTerm.toLowerCase())
       );
-      setFilteredGames(filtered);
     }
-  }, [searchTerm, games]);
+
+    // Filter by 100% completion
+    if (show100Percent) {
+      filtered = filtered.filter((game) => game.completed100);
+    }
+
+    setFilteredGames(filtered);
+  }, [searchTerm, show100Percent, games]);
 
   return (
     <div className="p-8 text-center cursor-default">
-      <input
-        type="text"
-        placeholder="Search games by title..."
-        // 4. Controlled input
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        className="
-          block mx-auto mb-5 px-4 py-2
-          w-4/5 max-w-[400px] text-base
-          border border-[#333] rounded-md
-          bg-[#1e1e1e] text-white
-          focus:outline-none
-          focus:border-[#007bff]
-          focus:shadow-[0_0_8px_rgba(0,123,255,0.5)]
-        "
-      />
+      {/* Search Bar and Checkbox */}
+      <div className="flex items-center justify-center gap-4 mb-5">
+        <input
+          type="text"
+          placeholder="Search games by title..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="
+            px-4 py-2
+            w-4/5 max-w-[400px] text-base
+            border border-[#333] rounded-md
+            bg-[#1e1e1e] text-white
+            focus:outline-none
+            focus:border-[#007bff]
+            focus:shadow-[0_0_8px_rgba(0,123,255,0.5)]
+          "
+        />
+        <label className="text-white flex items-center gap-2">
+          <input
+            type="checkbox"
+            checked={show100Percent}
+            onChange={(e) => setShow100Percent(e.target.checked)}
+            className="cursor-pointer"
+          />
+          100%
+        </label>
+      </div>
 
+      {/* Game Cards */}
       <div className="grid grid-cols-[repeat(auto-fit,200px)] justify-center gap-5">
         {filteredGames.map((game) => (
           <div
             key={game.id}
             onClick={() => openModal(game)}
             className="
-              w-[200px] h-[300px]
-              bg-[#1e1e1e] text-white
+              w-[200px] h-auto
               rounded-md overflow-hidden
               shadow-[0_4px_8px_rgba(0,0,0,0.2)]
               transition-transform transition-shadow
               duration-300 ease-in-out
               hover:scale-105
               hover:shadow-[0_6px_12px_rgba(0,0,0,0.4)]
-              
-              // 5. Remove or override pointer:
-              cursor-default
+              cursor-pointer
+              bg-[#1e1e1e]
             "
           >
             <img
               src={getImagePath(game.image)}
               alt={game.title}
-              className="w-full h-[60%] object-cover"
+              className="w-full h-[300px] object-cover"
             />
-            <h3
+            <div
               className="
-                p-3 text-base font-bold text-center
+                flex justify-between items-start
                 bg-[#2c2c2c] text-[#f0f0f0]
-                h-[40%] flex items-center justify-center
+                px-2 py-2 min-h-[60px]
               "
             >
-              {game.title}
-            </h3>
+              <p className="text-sm break-words">{game.title}</p>
+              {game.completed100 && (
+                <span
+                  className="
+                    text-xs font-bold text-[#FFD700]
+                    bg-[#2c2c2c] px-1 py-0.5
+                    rounded-md
+                    whitespace-nowrap
+                  "
+                >
+                  100%
+                </span>
+              )}
+            </div>
           </div>
         ))}
       </div>

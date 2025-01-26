@@ -1,10 +1,200 @@
 [
   {
     "id": 1,
-    "title": "Game A - 2023 GOTY",
+    "title": "Mass Effect 1",
+    "genre": "Action role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "The first installment in the Mass Effect series, where players make decisions that shape the galaxy.",
+    "image": "MassEffect.jpg",
+    "completed100": false
+  },
+  {
+    "id": 2,
+    "title": "Pokemon Violet",
+    "genre": "Role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "A mainline Pokémon game introducing the Paldea region and open-world gameplay.",
+    "image": "PokemonViolet.jpg",
+    "completed100": false
+  },
+  {
+    "id": 3,
+    "title": "Elden Ring",
+    "genre": "Action role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "An expansive open-world action RPG developed by FromSoftware.",
+    "image": "EldenRing.jpg",
+    "completed100": false
+  },
+  {
+    "id": 4,
+    "title": "Titanfall 2",
+    "genre": "First-person shooter",
+    "dateCompleted": "2023-XX-XX",
+    "description": "A fast-paced FPS with an acclaimed single-player campaign and multiplayer.",
+    "image": "Titanfall2.jpg",
+    "completed100": false
+  },
+  {
+    "id": 5,
+    "title": "Final Fantasy X",
+    "genre": "Role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "A classic Final Fantasy title featuring a compelling story and a turn-based battle system.",
+    "image": "FinalFantasyX.jpg",
+    "completed100": false
+  },
+  {
+    "id": 6,
+    "title": "Needy Streamer Overdose",
+    "genre": "Simulation",
+    "dateCompleted": "2023-XX-XX",
+    "description": "A streamer simulator game exploring themes of mental health and internet fame.",
+    "image": "NeedyStreamerOverdose.jpg",
+    "completed100": false
+  },
+  {
+    "id": 7,
+    "title": "Hogwarts Legacy",
+    "genre": "Action role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "An immersive RPG set in the Wizarding World, set in the 1800s.",
+    "image": "HogwartsLegacy.jpg",
+    "completed100": false
+  },
+  {
+    "id": 8,
+    "title": "Vampire Survivors",
+    "genre": "Roguelike",
+    "dateCompleted": "2023-XX-XX",
+    "description": "A minimalist action game with survival elements and upgrades.",
+    "image": "VampireSurvivors.jpg",
+    "completed100": false
+  },
+  {
+    "id": 9,
+    "title": "Final Fantasy XVI",
+    "genre": "Action role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "The sixteenth installment in the Final Fantasy series, with real-time combat and a darker tone.",
+    "image": "FinalFantasyXVI.jpg",
+    "completed100": false
+  },
+  {
+    "id": 10,
+    "title": "Persona 4 Golden",
+    "genre": "Role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "An enhanced version of Persona 4 with additional content and improved mechanics.",
+    "image": "Persona4Golden.jpg",
+    "completed100": false
+  },
+  {
+    "id": 11,
+    "title": "Dragon's Dogma: Dark Arisen",
+    "genre": "Action role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "An expansion to Dragon's Dogma, featuring new areas and enhanced gameplay.",
+    "image": "DragonsDogmaDarkArisen.jpg",
+    "completed100": false
+  },
+  {
+    "id": 12,
+    "title": "Monster Hunter Rise",
+    "genre": "Action role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "A monster-hunting game featuring fast-paced action and new mechanics.",
+    "image": "MonsterHunterRise.jpg",
+    "completed100": false
+  },
+  {
+    "id": 13,
+    "title": "Baldur's Gate 3",
+    "genre": "Role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "An RPG set in the Dungeons & Dragons universe, offering deep storytelling and combat.",
+    "image": "BaldursGate3.jpg",
+    "completed100": false
+  },
+  {
+    "id": 14,
+    "title": "Resident Evil 2 Remake",
+    "genre": "Survival horror",
+    "dateCompleted": "2023-XX-XX",
+    "description": "A remake of the survival horror classic with modern visuals and gameplay.",
+    "image": "ResidentEvil2Remake.jpg",
+    "completed100": false
+  },
+  {
+    "id": 15,
+    "title": "Armored Core 6",
     "genre": "Action",
-    "dateCompleted": "2023-01-15",
-    "description": "Some cool game from 2023",
-    "image": "gameA.jpg"
+    "dateCompleted": "2023-XX-XX",
+    "description": "A mech-based action game from FromSoftware, emphasizing customization and combat.",
+    "image": "ArmouredCore6.jpg",
+    "completed100": true
+  },
+  {
+    "id": 16,
+    "title": "Final Fantasy I",
+    "genre": "Role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "The first game in the Final Fantasy series, remastered for modern platforms.",
+    "image": "FinalFantasyI.jpg",
+    "completed100": true
+  },
+  {
+    "id": 17,
+    "title": "Final Fantasy II",
+    "genre": "Role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "The second game in the Final Fantasy series, featuring a unique leveling system.",
+    "image": "FinalFantasyII.jpg",
+    "completed100": true
+  },
+  {
+    "id": 18,
+    "title": "Final Fantasy III",
+    "genre": "Role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "The third game in the series, introducing the job system.",
+    "image": "FinalFantasyIII.jpg",
+    "completed100": true
+  },
+  {
+    "id": 19,
+    "title": "Resident Evil 3 Remake",
+    "genre": "Survival horror",
+    "dateCompleted": "2023-XX-XX",
+    "description": "A modern remake of the Resident Evil 3 classic with updated visuals.",
+    "image": "ResidentEvil3Remake.jpg",
+    "completed100": false
+  },
+  {
+    "id": 20,
+    "title": "Final Fantasy IV",
+    "genre": "Role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "The fourth Final Fantasy game, introducing an emotional narrative and dynamic characters.",
+    "image": "FinalFantasyIV.jpg",
+    "completed100": true
+  },
+  {
+    "id": 21,
+    "title": "Resident Evil 5",
+    "genre": "Action",
+    "dateCompleted": "2023-XX-XX",
+    "description": "A co-op action game with intense combat and exploration.",
+    "image": "ResidentEvil5.jpg",
+    "completed100": false
+  },
+  {
+    "id": 22,
+    "title": "Star Ocean 2 Remake",
+    "genre": "Action role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "A remake of the classic Star Ocean 2, featuring enhanced visuals and gameplay.",
+    "image": "StarOcean2.jpg",
+    "completed100": false
   }
 ]

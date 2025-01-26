@@ -1,6 +1,7 @@
-// src/Components/Sidebar.js
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import CeemotGif from "../images/CeemotIcon.gif";
+import CGif from "../images/CIcon.gif";
 
 const yearsData = [
   {
@@ -27,16 +28,13 @@ const yearsData = [
 ];
 
 export default function Sidebar({ isCollapsed, onToggleCollapse }) {
-  // Track which years are expanded (accordion style).
-  // e.g. { 2025: true, 2024: false, 2023: false }
-  const [expandedYears, setExpandedYears] = useState({});
+  // Track which year is currently expanded (accordion style).
+  // Store only one expanded year (e.g., 2025).
+  const [expandedYear, setExpandedYear] = useState(null);
 
-  // Toggle expand/collapse for a specific year
+  // Toggle expand/collapse for a specific year.
   const toggleYear = (year) => {
-    setExpandedYears((prev) => ({
-      ...prev,
-      [year]: !prev[year],
-    }));
+    setExpandedYear((prevYear) => (prevYear === year ? null : year));
   };
 
   return (
@@ -52,12 +50,16 @@ export default function Sidebar({ isCollapsed, onToggleCollapse }) {
       }}
     >
       <div className="flex items-center justify-between px-3 py-4 border-b">
-        <span className="font-bold text-lg">
-          {isCollapsed ? "" : "GameGallery"}
-        </span>
+        <div className="flex items-center">
+          {isCollapsed ? (
+            ""
+          ) : (
+            <img src={CeemotGif} alt="Ceemot Logo" className="h-50" />
+          )}
+        </div>
         <button
           onClick={onToggleCollapse}
-          className="bg-gray-600 hover:bg-gray-500 text-white px-2 py-1 ml-2 rounded"
+          className="bg-gray-800 hover:bg-gray-500 text-white px-2 py-1 ml-2 rounded"
         >
           {isCollapsed ? ">" : "<"}
         </button>
@@ -66,7 +68,7 @@ export default function Sidebar({ isCollapsed, onToggleCollapse }) {
       <nav className="flex-1 overflow-y-auto px-2 py-3">
         {yearsData.map((yearItem) => {
           const { year, subLinks } = yearItem;
-          const isOpen = expandedYears[year] || false;
+          const isOpen = expandedYear === year;
 
           return (
             <div key={year} className="mb-2">
@@ -82,9 +84,7 @@ export default function Sidebar({ isCollapsed, onToggleCollapse }) {
                 "
               >
                 {isCollapsed ? (
-                  <span className="font-semibold text-sm">
-                    {String(year).slice(-2)}
-                  </span>
+                  <span className="font-semibold"></span>
                 ) : (
                   <span className="font-semibold">{year}</span>
                 )}

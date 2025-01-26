@@ -8,8 +8,7 @@ const MainLayout = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
 
   return (
-    // A flex container for sidebar + main content
-    <div className="flex min-h-screen bg-[#121212] text-white">
+    <div className="flex min-h-screen bg-[#111111] text-white">
       <Sidebar
         isCollapsed={isCollapsed}
         onToggleCollapse={() => setIsCollapsed((prev) => !prev)}

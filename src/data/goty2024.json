@@ -1,10 +1,11 @@
 [
   {
     "id": 1,
-    "title": "Game A - 2023 GOTY",
-    "genre": "Action",
-    "dateCompleted": "2023-01-15",
-    "description": "Some cool game from 2023",
-    "image": "gameA.jpg"
+    "title": "Metaphor: ReFantazio",
+    "genre": "Role-playing",
+    "dateCompleted": "2024-11-03",
+    "description": "A fantasy-themed RPG from the creators of Persona.",
+    "image": "Metaphor.jpg",
+    "completed100": true
   }
 ]

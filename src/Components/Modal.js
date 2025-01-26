@@ -32,26 +32,26 @@ const Modal = ({ game, close }) => {
         className="
           bg-[#1f1f1f] text-white
           rounded-md p-5
-          max-w-[500px] w-[90%]
+          w-[40%] max-w-[800px]
           text-left
           shadow-[0_8px_16px_rgba(0,0,0,0.5)]
         "
         onClick={(e) => e.stopPropagation()}
       >
-        <h2 className="text-xl font-bold mb-2">{game.title}</h2>
+        <h2 className="text-2xl font-bold mb-4">{game.title}</h2>
         <img
           src={getImagePath(game.image)}
           alt={game.title}
-          className="w-full h-[200px] object-cover rounded-md mb-3"
+          className="w-full h-[400px] object-contain rounded-md mb-4"
         />
-        <p>
+        <p className="mb-2">
           <strong>Genre:</strong> {game.genre}
         </p>
-        <p>
+        <p className="mb-2">
           <strong>Date Completed:</strong>{" "}
           {game.dateCompleted || "Not Completed"}
         </p>
-        <p className="mt-2">{game.description}</p>
+        <p>{game.description}</p>
       </div>
     </div>
   );
