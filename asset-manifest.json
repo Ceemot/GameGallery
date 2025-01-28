@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GameGallery/static/css/main.9bb57914.css",
-    "main.js": "/GameGallery/static/js/main.33c126c8.js",
+    "main.css": "/GameGallery/static/css/main.f0fdd8be.css",
+    "main.js": "/GameGallery/static/js/main.00444ce4.js",
     "static/js/488.f1a2d7ab.chunk.js": "/GameGallery/static/js/488.f1a2d7ab.chunk.js",
     "static/media/Persona5Royal.jpg": "/GameGallery/static/media/Persona5Royal.96cf265a50c82044728a.jpg",
     "static/media/SuperMarioRPG.jpg": "/GameGallery/static/media/SuperMarioRPG.69fbe0886b4910c91c3d.jpg",
@@ -78,12 +78,12 @@
     "static/media/NierReplicant.jpg": "/GameGallery/static/media/NierReplicant.081613a9874c486408be.jpg",
     "static/media/WhatRemainsOfEdithFinch.jpg": "/GameGallery/static/media/WhatRemainsOfEdithFinch.f0f6ab07b2046e66ede2.jpg",
     "index.html": "/GameGallery/index.html",
-    "main.9bb57914.css.map": "/GameGallery/static/css/main.9bb57914.css.map",
-    "main.33c126c8.js.map": "/GameGallery/static/js/main.33c126c8.js.map",
+    "main.f0fdd8be.css.map": "/GameGallery/static/css/main.f0fdd8be.css.map",
+    "main.00444ce4.js.map": "/GameGallery/static/js/main.00444ce4.js.map",
     "488.f1a2d7ab.chunk.js.map": "/GameGallery/static/js/488.f1a2d7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bb57914.css",
-    "static/js/main.33c126c8.js"
+    "static/css/main.f0fdd8be.css",
+    "static/js/main.00444ce4.js"
   ]
 }
