@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "MiSide",
+    "description": "This is a description of Game 1.",
+    "image": "Miside.jpg",
+    "genre": "Horror",
+    "dateCompleted": "6th January",
+    "tags": ["Horror", "DatingSim"],
+    "completed100": false
+  }
+]

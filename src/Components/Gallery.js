@@ -1,18 +1,26 @@
-import React, { useState, useEffect } from 'react';
-import Modal from './Modal';
-import gamesData from '../data/games.json';
-import { getImagePath } from '../utils';
+// src/Components/Gallery.js
+import React, { useState, useEffect } from "react";
+import Modal from "./Modal";
+import { getImagePath } from "../utils";
 
-const Gallery = () => {
+const Gallery = ({ gamesData }) => {
   const [games, setGames] = useState([]);
   const [filteredGames, setFilteredGames] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [show100Percent, setShow100Percent] = useState(false);
   const [selectedGame, setSelectedGame] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
+    document.body.style.overflowY = "scroll";
+    setSearchTerm("");
     setGames(gamesData);
     setFilteredGames(gamesData);
-  }, []);
+
+    return () => {
+      document.body.style.overflowY = "";
+    };
+  }, [gamesData]);
 
   const openModal = (game) => {
     setSelectedGame(game);
@@ -24,38 +32,98 @@ const Gallery = () => {
     setSelectedGame(null);
   };
 
-  const searchGames = (term) => {
-    if (!term.trim()) {
-      setFilteredGames(games);
-    } else {
-      const filtered = games.filter((game) =>
-        game.title.toLowerCase().includes(term.toLowerCase())
+  useEffect(() => {
+    let filtered = games;
+
+    // Filter by title
+    if (searchTerm.trim()) {
+      filtered = filtered.filter((game) =>
+        game.title.toLowerCase().includes(searchTerm.toLowerCase())
       );
-      setFilteredGames(filtered);
     }
-  };
+
+    // Filter by 100% completion
+    if (show100Percent) {
+      filtered = filtered.filter((game) => game.completed100);
+    }
+
+    setFilteredGames(filtered);
+  }, [searchTerm, show100Percent, games]);
 
   return (
-    <div className="gallery-container">
-      <input
-        type="text"
-        placeholder="Search games by title..."
-        onChange={(e) => searchGames(e.target.value)}
-        className="search-bar"
-      />
-      <div className="gallery">
+    <div className="p-8 text-center cursor-default">
+      {/* Search Bar and Checkbox */}
+      <div className="flex items-center justify-center gap-4 mb-5">
+        <input
+          type="text"
+          placeholder="Search games by title..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="
+            px-4 py-2
+            w-4/5 max-w-[400px] text-base
+            border border-[#333] rounded-md
+            bg-[#1e1e1e] text-white
+            focus:outline-none
+            focus:border-[#007bff]
+            focus:shadow-[0_0_8px_rgba(0,123,255,0.5)]
+          "
+        />
+        <label className="text-white flex items-center gap-2">
+          <input
+            type="checkbox"
+            checked={show100Percent}
+            onChange={(e) => setShow100Percent(e.target.checked)}
+            className="cursor-pointer"
+          />
+          100%
+        </label>
+      </div>
+
+      {/* Game Cards */}
+      <div className="grid grid-cols-[repeat(auto-fit,200px)] justify-center gap-5">
         {filteredGames.map((game) => (
           <div
             key={game.id}
-            className="game-card"
             onClick={() => openModal(game)}
+            className="
+              w-[200px] h-auto
+              rounded-md overflow-hidden
+              shadow-[0_4px_8px_rgba(0,0,0,0.2)]
+              transition-transform transition-shadow
+              duration-300 ease-in-out
+              hover:scale-105
+              hover:shadow-[0_6px_12px_rgba(0,0,0,0.4)]
+              cursor-pointer
+              bg-[#1e1e1e]
+            "
           >
             <img
-  src={getImagePath(game.image)} // Use utility function
-  alt={game.title}
-  className="game-image"
-/>
-            <h3 className="game-title">{game.title}</h3>
+              src={getImagePath(game.image)}
+              alt={game.title}
+              className="w-full h-[300px] object-cover"
+            />
+            <div
+              className="
+                flex justify-between items-start
+                bg-[#2c2c2c] text-[#f0f0f0]
+                px-2 py-2 min-h-[60px]
+              "
+            >
+              <p className="text-sm break-words">{game.title}</p>
+              {game.completed100 && (
+                <span
+                  className="
+                    text-xs font-bold text-[#FFD700]
+                    bg-[#2c2c2c] px-1 py-0.5
+                    rounded-md
+                    whitespace-nowrap
+                  "
+                >
+                  100%
+                </span>
+              )}
+            </div>
           </div>
         ))}
       </div>
