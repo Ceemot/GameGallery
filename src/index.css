@@ -9,3 +9,7 @@
     height: 100%; /* optional, helps ensure full page coverage */
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}

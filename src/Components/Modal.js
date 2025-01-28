@@ -1,6 +1,6 @@
 // src/components/Modal.js
-
 import React, { useEffect } from "react";
+import { motion } from "framer-motion";
 import { getImagePath } from "../utils";
 
 const Modal = ({ game, close }) => {
@@ -10,15 +10,12 @@ const Modal = ({ game, close }) => {
         close();
       }
     };
-
     window.addEventListener("keydown", handleEscape);
-    return () => {
-      window.removeEventListener("keydown", handleEscape);
-    };
+    return () => window.removeEventListener("keydown", handleEscape);
   }, [close]);
 
   return (
-    <div
+    <motion.div
       className="
         fixed top-0 left-0
         w-full h-full
@@ -27,8 +24,13 @@ const Modal = ({ game, close }) => {
         z-[9999]
       "
       onClick={close}
+      // Motion props for the backdrop
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.3 }}
     >
-      <div
+      <motion.div
         className="
           bg-[#1f1f1f] text-white
           rounded-md p-5
@@ -37,6 +39,11 @@ const Modal = ({ game, close }) => {
           shadow-[0_8px_16px_rgba(0,0,0,0.5)]
         "
         onClick={(e) => e.stopPropagation()}
+        // Motion props for the modal content
+        initial={{ scale: 0.8, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ scale: 0.8, opacity: 0 }}
+        transition={{ duration: 0.3 }}
       >
         <h2 className="text-2xl font-bold mb-4">{game.title}</h2>
         <img
@@ -52,8 +59,8 @@ const Modal = ({ game, close }) => {
           {game.dateCompleted || "Not Completed"}
         </p>
         <p>{game.description}</p>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 
