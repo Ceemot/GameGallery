@@ -18,14 +18,47 @@ function App() {
         <Route path="/GameGallery" element={<MainLayout />}>
           <Route
             index
-            element={<Gallery gamesData={currentgames} hideSearchBar={true} />}
+            element={
+              <Gallery
+                gamesData={currentgames}
+                hideSearchBar={true}
+                headerTitle={"Currently playing"}
+              />
+            }
           ></Route>
           <Route path="2025/full" element={<Gallery gamesData={full2025} />} />
-          <Route path="2025/goty" element={<Gallery gamesData={goty2025} />} />
+          <Route
+            path="2025/goty"
+            element={
+              <Gallery
+                gamesData={goty2025}
+                hideSearchBar={true}
+                headerTitle={"Game of the year 2025"}
+              />
+            }
+          />
           <Route path="2024/full" element={<Gallery gamesData={full2024} />} />
-          <Route path="2024/goty" element={<Gallery gamesData={goty2024} />} />
+          <Route
+            path="2024/goty"
+            element={
+              <Gallery
+                gamesData={goty2024}
+                hideSearchBar={true}
+                headerTitle={"Game of the year 2024"}
+              />
+            }
+          />
           <Route path="2023/full" element={<Gallery gamesData={full2023} />} />
-          <Route path="2023/goty" element={<Gallery gamesData={goty2023} />} />
+          <Route
+            path="2023/goty"
+            element={
+              <Gallery
+                gamesData={goty2023}
+                hideSearchBar={true}
+                headerTitle={"Game of the year 2023"}
+              />
+            }
+          />
         </Route>
         <Route
           path="/"

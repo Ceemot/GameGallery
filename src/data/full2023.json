@@ -6,7 +6,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "The first installment in the Mass Effect series, where players make decisions that shape the galaxy.",
     "image": "MassEffect.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "A mainline Pokémon game introducing the Paldea region and open-world gameplay.",
     "image": "PokemonViolet.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "switch-logo.png"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "An expansive open-world action RPG developed by FromSoftware.",
     "image": "EldenRing.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "A fast-paced FPS with an acclaimed single-player campaign and multiplayer.",
     "image": "Titanfall2.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "A classic Final Fantasy title featuring a compelling story and a turn-based battle system.",
     "image": "FinalFantasyX.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "A streamer simulator game exploring themes of mental health and internet fame.",
     "image": "NeedyStreamerOverdose.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "An immersive RPG set in the Wizarding World, set in the 1800s.",
     "image": "HogwartsLegacy.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "A minimalist action game with survival elements and upgrades.",
     "image": "VampireSurvivors.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "The sixteenth installment in the Final Fantasy series, with real-time combat and a darker tone.",
     "image": "FinalFantasyXVI.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "playstation-logo.png"
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "An enhanced version of Persona 4 with additional content and improved mechanics.",
     "image": "Persona4Golden.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "An expansion to Dragon's Dogma, featuring new areas and enhanced gameplay.",
     "image": "DragonsDogmaDarkArisen.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "A monster-hunting game featuring fast-paced action and new mechanics.",
     "image": "MonsterHunterRise.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "An RPG set in the Dungeons & Dragons universe, offering deep storytelling and combat.",
     "image": "BaldursGate3.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "A remake of the survival horror classic with modern visuals and gameplay.",
     "image": "ResidentEvil2Remake.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "A mech-based action game from FromSoftware, emphasizing customization and combat.",
     "image": "ArmouredCore6.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "The first game in the Final Fantasy series, remastered for modern platforms.",
     "image": "FinalFantasyI.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "The second game in the Final Fantasy series, featuring a unique leveling system.",
     "image": "FinalFantasyII.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "The third game in the series, introducing the job system.",
     "image": "FinalFantasyIII.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "A modern remake of the Resident Evil 3 classic with updated visuals.",
     "image": "ResidentEvil3Remake.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 20,
@@ -177,7 +196,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "The fourth Final Fantasy game, introducing an emotional narrative and dynamic characters.",
     "image": "FinalFantasyIV.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 21,
@@ -186,7 +206,8 @@
     "dateCompleted": "2023-XX-XX",
     "description": "A co-op action game with intense combat and exploration.",
     "image": "ResidentEvil5.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 22,
@@ -195,6 +216,7 @@
     "dateCompleted": "2023-XX-XX",
     "description": "A remake of the classic Star Ocean 2, featuring enhanced visuals and gameplay.",
     "image": "StarOcean2.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   }
 ]

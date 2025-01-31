@@ -6,6 +6,7 @@
     "dateCompleted": "2024-11-03",
     "description": "A fantasy-themed RPG from the creators of Persona.",
     "image": "Metaphor.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   }
 ]

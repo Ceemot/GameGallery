@@ -5,6 +5,7 @@
     "genre": "Role-playing",
     "dateCompleted": "2023-XX-XX",
     "description": "An RPG set in the Dungeons & Dragons universe, offering deep storytelling and combat.",
-    "image": "BaldursGate3.jpg"
+    "image": "BaldursGate3.jpg",
+    "platformIcon": "steam-logo.png"
   }
 ]

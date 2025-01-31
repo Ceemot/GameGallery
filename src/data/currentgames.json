@@ -1,29 +1,22 @@
 [
   {
     "id": 1,
-    "title": "Testing",
-    "description": "This is a description of Game 1.",
-    "image": "test.png",
-    "genre": "Horror",
-    "dateCompleted": "6th January",
-    "tags": ["Horror", "DatingSim"]
+    "title": "Warframe",
+    "genre": "Action",
+    "dateCompleted": "2024-12-29",
+    "description": "A cooperative free-to-play action game set in a sci-fi universe.",
+    "image": "Warframe.jpg",
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 2,
-    "title": "Testing2",
-    "description": "This is a description of Game 2.",
-    "image": "test.png",
-    "genre": "Adventure",
-    "dateCompleted": "2022-10-08",
-    "tags": ["adventure", "exploration", "puzzle"]
-  },
-  {
-    "id": 3,
-    "title": "Testing3",
-    "description": "This is a description of Game 3.",
-    "image": "test.png",
-    "genre": "RPG",
-    "dateCompleted": "2021-06-21",
-    "tags": ["rpg", "fantasy", "singleplayer"]
+    "title": "God of War Ragnarök",
+    "genre": "Action role-playing",
+    "dateCompleted": "2023-XX-XX",
+    "description": "The first installment in the Mass Effect series, where players make decisions that shape the galaxy.",
+    "image": "GodOfWar2.jpg",
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   }
 ]

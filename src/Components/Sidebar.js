@@ -32,11 +32,16 @@ export default function Sidebar({ isCollapsed, onToggleCollapse }) {
   const [expandedYear, setExpandedYear] = React.useState(null);
 
   const toggleYear = (year) => {
+    if (isCollapsed) return;
     setExpandedYear((prevYear) => (prevYear === year ? null : year));
   };
 
   return (
-    <div className="h-full flex flex-col bg-[#1e1e1e]">
+    <div
+      className={`h-full flex flex-col bg-[#1e1e1e] ${
+        isCollapsed ? "pointer-events-none" : ""
+      }`}
+    >
       {/* Header */}
       <div className="flex items-center justify-between px-3 py-4 border-b border-gray-800">
         {/* If not collapsed, show the logo. If collapsed, maybe show a small icon */}
@@ -57,9 +62,9 @@ export default function Sidebar({ isCollapsed, onToggleCollapse }) {
         {/* Toggle button */}
         <button
           onClick={onToggleCollapse}
-          className="p-2 rounded hover:bg-gray-700 transition-colors"
+          className="p-2 rounded-md hover:bg-gray-700 text-white transition transform hover:scale-105 pointer-events-auto"
         >
-          {isCollapsed ? ">" : "<"}
+          {isCollapsed ? ">" : "X"}
         </button>
       </div>
 
@@ -102,7 +107,7 @@ export default function Sidebar({ isCollapsed, onToggleCollapse }) {
               </div>
               {/* Expand sub-links with framer-motion */}
               <AnimatePresence>
-                {isYearOpen && (
+                {!isCollapsed && isYearOpen && (
                   <motion.div
                     initial={{ height: 0, opacity: 0 }}
                     animate={{ height: "auto", opacity: 1 }}

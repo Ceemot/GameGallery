@@ -7,6 +7,7 @@
     "genre": "Horror",
     "dateCompleted": "6th January",
     "tags": ["Horror", "DatingSim"],
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   }
 ]

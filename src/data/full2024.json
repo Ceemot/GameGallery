@@ -6,7 +6,8 @@
     "dateCompleted": "2024-01-05",
     "description": "A rhythm-based action game where players battle enemies to the beat.",
     "image": "HiFiRush.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "dateCompleted": "2024-01-20",
     "description": "The seventh main entry in the Yakuza series, introducing a new protagonist and turn-based combat.",
     "image": "YakuzaLAD.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "dateCompleted": "2024-01-21",
     "description": "A fast-paced action game focusing on boss battles with a unique art style.",
     "image": "Furi.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "dateCompleted": "2024-02-05",
     "description": "An action RPG set in the Granblue Fantasy universe, featuring cooperative multiplayer.",
     "image": "GranBlueFantasy.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "dateCompleted": "2024-02-07",
     "description": "A collaboration between Nintendo and Square, blending platforming and RPG elements.",
     "image": "SuperMarioRPG.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "switch-logo.png"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "dateCompleted": "2024-02-12",
     "description": "A side story in the Yakuza series focusing on Kazuma Kiryu's journey.",
     "image": "LADGaiden.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "dateCompleted": "2024-02-27",
     "description": "A remake of the classic JRPG Persona 3 with updated graphics and gameplay.",
     "image": "Persona3Reload.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "dateCompleted": "2024-03-06",
     "description": "The second installment in the Final Fantasy VII Remake series, continuing Cloud's journey.",
     "image": "FinalFantasyVIIRebirth.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "playstation-logo.png"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "dateCompleted": "2024-03-17",
     "description": "An episodic adventure game that follows a photography student with time-rewinding abilities.",
     "image": "LifeIsStrange.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "dateCompleted": "2024-03-19",
     "description": "A first-person survival horror game that returns to the series' roots.",
     "image": "ResidentEvil7.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "dateCompleted": "2024-03-23",
     "description": "The eighth main entry in the Resident Evil series, continuing Ethan Winters' story.",
     "image": "ResidentEvil8.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "dateCompleted": "2024-03-24",
     "description": "An expansive open-world action RPG developed by FromSoftware.",
     "image": "EldenRing.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "dateCompleted": "2024-03-30",
     "description": "The sequel to the acclaimed action RPG, offering a vast open world and dynamic combat.",
     "image": "DragonsDogma2.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "dateCompleted": "2024-04-03",
     "description": "An action-adventure game by FromSoftware, focusing on stealth and precise combat.",
     "image": "Sekiro.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "dateCompleted": "2024-04-10",
     "description": "The first installment in the Ys series, known for its fast-paced combat and music.",
     "image": "Ys1.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "dateCompleted": "2024-04-12",
     "description": "A rhythm game featuring characters from Persona 5 dancing to remixed tracks.",
     "image": "Persona5DancingInStarlight.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "playstation-logo.png"
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "dateCompleted": "2024-04-25",
     "description": "An action RPG sequel to Persona 5, blending hack-and-slash combat with RPG elements.",
     "image": "Persona5Strikers.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "dateCompleted": "2024-04-29",
     "description": "An enhanced version of Persona 5 with new characters, storylines, and gameplay improvements.",
     "image": "Persona5Royal.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
     "dateCompleted": "2024-05-05",
     "description": "A roguelike deck-building game with RPG elements and unique characters.",
     "image": "ChronoArk.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 20,
@@ -177,7 +196,8 @@
     "dateCompleted": "2024-05-06",
     "description": "A remake of the classic survival horror game, Resident Evil 4, with enhanced visuals and gameplay.",
     "image": "ResidentEvil4.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 21,
@@ -186,7 +206,8 @@
     "dateCompleted": "2024-05-13",
     "description": "A standalone expansion to Resident Evil 4, focusing on Ada Wong's story.",
     "image": "ResidentEvil4SeperateWays.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 22,
@@ -195,7 +216,8 @@
     "dateCompleted": "2024-05-14",
     "description": "An action game with a focus on cinematic storytelling and dynamic combat.",
     "image": "StellarBlade.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "playstation-logo.png"
   },
   {
     "id": 23,
@@ -204,7 +226,8 @@
     "dateCompleted": "2024-05-21",
     "description": "An action RPG combining time-travel mechanics with deep character customization.",
     "image": "LastEpoch.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 24,
@@ -213,7 +236,8 @@
     "dateCompleted": "2024-05-24",
     "description": "A survival-focused city-building game set in a frozen wasteland.",
     "image": "Frostpunk.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 25,
@@ -222,7 +246,8 @@
     "dateCompleted": "2024-05-26",
     "description": "An open-world action game set in feudal Japan, focusing on samurai combat.",
     "image": "GhostOfTsushima.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 26,
@@ -231,7 +256,8 @@
     "dateCompleted": "2024-05-26",
     "description": "A first-person mystery adventure game set in the Wyoming wilderness.",
     "image": "Firewatch.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 27,
@@ -240,7 +266,8 @@
     "dateCompleted": "2024-05-28",
     "description": "A narrative-driven exploration game about the tragic history of the Finch family.",
     "image": "WhatRemainsOfEdithFinch.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 28,
@@ -249,7 +276,8 @@
     "dateCompleted": "2024-05-31",
     "description": "A roguelike dungeon crawler where players take on the role of Zagreus, prince of the Underworld.",
     "image": "Hades.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 29,
@@ -258,7 +286,8 @@
     "dateCompleted": "2024-06-06",
     "description": "An expansion to Destiny 2, wrapping up the Light vs. Darkness saga.",
     "image": "Destiny2TheFinalShape.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 30,
@@ -267,7 +296,8 @@
     "dateCompleted": "2024-06-15",
     "description": "A pixel-art RPG inspired by classic 16-bit games, with a focus on storytelling.",
     "image": "ChainedEchoes.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 31,
@@ -276,7 +306,8 @@
     "dateCompleted": "2024-06-26",
     "description": "A DLC expansion to Elden Ring, introducing new content and mysteries.",
     "image": "EldenRingShadowOfTheErdtree.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 32,
@@ -285,7 +316,8 @@
     "dateCompleted": "2024-07-03",
     "description": "A cooperative puzzle game where players solve puzzles together.",
     "image": "PicoPark.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 33,
@@ -294,7 +326,8 @@
     "dateCompleted": "2024-07-09",
     "description": "A sequel to Octopath Traveler, featuring new characters and stories.",
     "image": "OctopathTraveller2.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 34,
@@ -303,7 +336,8 @@
     "dateCompleted": "2024-07-18",
     "description": "A remaster of the original Nier with enhanced graphics and gameplay.",
     "image": "NierReplicant.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 35,
@@ -312,7 +346,8 @@
     "dateCompleted": "2024-07-24",
     "description": "The second part of the Ys series, continuing the story of Adol.",
     "image": "Ys2.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 36,
@@ -321,7 +356,8 @@
     "dateCompleted": "2024-07-25",
     "description": "A high-octane action game starring Raiden, blending swordplay and stealth.",
     "image": "MetalGearRising.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 37,
@@ -330,7 +366,8 @@
     "dateCompleted": "2024-07-25",
     "description": "A cooperative puzzle game with unique gameplay mechanics.",
     "image": "ChainedTogether.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 38,
@@ -339,7 +376,8 @@
     "dateCompleted": "2024-08-16",
     "description": "A challenging action RPG known for its punishing gameplay and interconnected world.",
     "image": "DarkSouls.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 39,
@@ -348,7 +386,8 @@
     "dateCompleted": "2024-08-28",
     "description": "An action RPG inspired by Journey to the West, featuring the Monkey King.",
     "image": "BlackMythWukong.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 40,
@@ -357,7 +396,8 @@
     "dateCompleted": "2024-09-05",
     "description": "A roguelike dungeon crawler with a dark and surreal story.",
     "image": "BindingOfIsaac.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 41,
@@ -366,7 +406,8 @@
     "dateCompleted": "2024-09-21",
     "description": "A cooperative puzzle game exploring themes of friendship and loss.",
     "image": "Bokura.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 42,
@@ -375,7 +416,8 @@
     "dateCompleted": "2024-09-27",
     "description": "A remake of the classic JRPG Persona 3 with updated graphics and gameplay.",
     "image": "Persona3ReloadEpisodeAigis.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 43,
@@ -384,7 +426,8 @@
     "dateCompleted": "2024-10-09",
     "description": "A sequel to the Space Marine game, bringing players back to the Warhammer 40,000 universe.",
     "image": "Warhammer40kSpaceMarine2.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 44,
@@ -393,7 +436,8 @@
     "dateCompleted": "2024-11-03",
     "description": "A fantasy-themed RPG from the creators of Persona.",
     "image": "Metaphor.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 45,
@@ -402,7 +446,8 @@
     "dateCompleted": "2024-11-17",
     "description": "The iconic stealth-action game that introduced players to Solid Snake.",
     "image": "MetalGearSolid.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 46,
@@ -411,7 +456,8 @@
     "dateCompleted": "2024-11-22",
     "description": "A roguelike deck-building game with a comedic twist.",
     "image": "Balatro.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   },
   {
     "id": 47,
@@ -420,7 +466,8 @@
     "dateCompleted": "2024-12-10",
     "description": "An expansive RPG set in a world of living titans, featuring deep storytelling and combat.",
     "image": "XenobladeChronicles2.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "switch-logo.png"
   },
   {
     "id": 48,
@@ -429,7 +476,8 @@
     "dateCompleted": "2024-12-15",
     "description": "A prequel expansion to Xenoblade Chronicles 2, exploring the story of Torna.",
     "image": "XenobladeChronicles2Torna.jpg",
-    "completed100": true
+    "completed100": true,
+    "platformIcon": "switch-logo.png"
   },
   {
     "id": 49,
@@ -438,6 +486,7 @@
     "dateCompleted": "2024-12-29",
     "description": "A cooperative free-to-play action game set in a sci-fi universe.",
     "image": "Warframe.jpg",
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   }
 ]
