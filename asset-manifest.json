@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GameGallery/static/css/main.f0fdd8be.css",
-    "main.js": "/GameGallery/static/js/main.b1e47f28.js",
+    "main.css": "/GameGallery/static/css/main.1d8fe83a.css",
+    "main.js": "/GameGallery/static/js/main.7f25f231.js",
     "static/js/488.f1a2d7ab.chunk.js": "/GameGallery/static/js/488.f1a2d7ab.chunk.js",
     "static/media/Persona3Reload.webp": "/GameGallery/static/media/Persona3Reload.f85af20f4e239099a9d9.webp",
     "static/media/SuperMarioRPG.jpg": "/GameGallery/static/media/SuperMarioRPG.69fbe0886b4910c91c3d.jpg",
@@ -60,6 +60,7 @@
     "static/media/FinalFantasyIII.jpg": "/GameGallery/static/media/FinalFantasyIII.ce03114c4e6569111d65.jpg",
     "static/media/Titanfall2.jpg": "/GameGallery/static/media/Titanfall2.775f3834be453864e5b7.jpg",
     "static/media/GranBlueFantasy.jpg": "/GameGallery/static/media/GranBlueFantasy.302a01aeb854897af3e6.jpg",
+    "static/media/steam-logo.png": "/GameGallery/static/media/steam-logo.5a33b08e829099913c8f.png",
     "static/media/DarkSouls.jpg": "/GameGallery/static/media/DarkSouls.4bc6019f0f9eee69f4e9.jpg",
     "static/media/LastEpoch.jpg": "/GameGallery/static/media/LastEpoch.a70c10ea3419b5797724.jpg",
     "static/media/Persona3ReloadEpisodeAigis.jpg": "/GameGallery/static/media/Persona3ReloadEpisodeAigis.5ab43d1d2e02d6913018.jpg",
@@ -74,18 +75,20 @@
     "static/media/ResidentEvil4.jpg": "/GameGallery/static/media/ResidentEvil4.d7c17594c750f8039dff.jpg",
     "static/media/FinalFantasyIV.jpg": "/GameGallery/static/media/FinalFantasyIV.06d321777ff0a9629524.jpg",
     "static/media/PicoPark.jpg": "/GameGallery/static/media/PicoPark.09d664abc2b806cea1a9.jpg",
+    "static/media/playstation-logo.png": "/GameGallery/static/media/playstation-logo.91af64da8efb833dd96c.png",
     "static/media/Miside.jpg": "/GameGallery/static/media/Miside.c5e8ecc7b61790589055.jpg",
     "static/media/Frostpunk.jpg": "/GameGallery/static/media/Frostpunk.cc4046367d00871728ed.jpg",
     "static/media/LADGaiden.jpg": "/GameGallery/static/media/LADGaiden.58d67d4b3bd8255c817b.jpg",
     "static/media/NierReplicant.jpg": "/GameGallery/static/media/NierReplicant.081613a9874c486408be.jpg",
+    "static/media/switch-logo.png": "/GameGallery/static/media/switch-logo.3d88290a467653bf93a6.png",
     "static/media/WhatRemainsOfEdithFinch.jpg": "/GameGallery/static/media/WhatRemainsOfEdithFinch.f0f6ab07b2046e66ede2.jpg",
     "index.html": "/GameGallery/index.html",
-    "main.f0fdd8be.css.map": "/GameGallery/static/css/main.f0fdd8be.css.map",
-    "main.b1e47f28.js.map": "/GameGallery/static/js/main.b1e47f28.js.map",
+    "main.1d8fe83a.css.map": "/GameGallery/static/css/main.1d8fe83a.css.map",
+    "main.7f25f231.js.map": "/GameGallery/static/js/main.7f25f231.js.map",
     "488.f1a2d7ab.chunk.js.map": "/GameGallery/static/js/488.f1a2d7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0fdd8be.css",
-    "static/js/main.b1e47f28.js"
+    "static/css/main.1d8fe83a.css",
+    "static/js/main.7f25f231.js"
   ]
 }
