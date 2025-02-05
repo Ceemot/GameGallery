@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GameGallery/static/css/main.1d8fe83a.css",
-    "main.js": "/GameGallery/static/js/main.fd31be44.js",
+    "main.js": "/GameGallery/static/js/main.7b8ecbb1.js",
     "static/js/488.f1a2d7ab.chunk.js": "/GameGallery/static/js/488.f1a2d7ab.chunk.js",
     "static/media/Persona3Reload.webp": "/GameGallery/static/media/Persona3Reload.f85af20f4e239099a9d9.webp",
     "static/media/SuperMarioRPG.jpg": "/GameGallery/static/media/SuperMarioRPG.69fbe0886b4910c91c3d.jpg",
@@ -47,6 +47,7 @@
     "static/media/DragonsDogmaDarkArisen.jpg": "/GameGallery/static/media/DragonsDogmaDarkArisen.440e07804aed8b0a7254.jpg",
     "static/media/ResidentEvil7.jpg": "/GameGallery/static/media/ResidentEvil7.c4100c9378eff77ffff4.jpg",
     "static/media/GhostOfTsushima.jpg": "/GameGallery/static/media/GhostOfTsushima.6f3f5f15cf33f2ff15e7.jpg",
+    "static/media/Borderlands3.jpg": "/GameGallery/static/media/Borderlands3.13f6a805f86229dc6781.jpg",
     "static/media/BlackMythWukong.jpg": "/GameGallery/static/media/BlackMythWukong.d898056863620178f3f6.jpg",
     "static/media/Persona5DancingInStarlight.jpg": "/GameGallery/static/media/Persona5DancingInStarlight.a3dc2cdce1948a8064f0.jpg",
     "static/media/MetalGearRising.jpg": "/GameGallery/static/media/MetalGearRising.7ca3600a3adc1a4f9969.jpg",
@@ -63,6 +64,7 @@
     "static/media/steam-logo.png": "/GameGallery/static/media/steam-logo.5a33b08e829099913c8f.png",
     "static/media/DarkSouls.jpg": "/GameGallery/static/media/DarkSouls.4bc6019f0f9eee69f4e9.jpg",
     "static/media/LastEpoch.jpg": "/GameGallery/static/media/LastEpoch.a70c10ea3419b5797724.jpg",
+    "static/media/FinalFantasyVii.jpg": "/GameGallery/static/media/FinalFantasyVii.1f3dff28aced70d95e8b.jpg",
     "static/media/Persona3ReloadEpisodeAigis.jpg": "/GameGallery/static/media/Persona3ReloadEpisodeAigis.5ab43d1d2e02d6913018.jpg",
     "static/media/ResidentEvil3Remake.jpg": "/GameGallery/static/media/ResidentEvil3Remake.dcdad4bb61400068b3fc.jpg",
     "static/media/Firewatch.jpg": "/GameGallery/static/media/Firewatch.b96df487901c7976f724.jpg",
@@ -84,11 +86,11 @@
     "static/media/WhatRemainsOfEdithFinch.jpg": "/GameGallery/static/media/WhatRemainsOfEdithFinch.f0f6ab07b2046e66ede2.jpg",
     "index.html": "/GameGallery/index.html",
     "main.1d8fe83a.css.map": "/GameGallery/static/css/main.1d8fe83a.css.map",
-    "main.fd31be44.js.map": "/GameGallery/static/js/main.fd31be44.js.map",
+    "main.7b8ecbb1.js.map": "/GameGallery/static/js/main.7b8ecbb1.js.map",
     "488.f1a2d7ab.chunk.js.map": "/GameGallery/static/js/488.f1a2d7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d8fe83a.css",
-    "static/js/main.fd31be44.js"
+    "static/js/main.7b8ecbb1.js"
   ]
 }
