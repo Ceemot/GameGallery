@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GameGallery/static/css/main.1d8fe83a.css",
-    "main.js": "/GameGallery/static/js/main.a9ce61fc.js",
+    "main.js": "/GameGallery/static/js/main.c051246e.js",
     "static/js/488.f1a2d7ab.chunk.js": "/GameGallery/static/js/488.f1a2d7ab.chunk.js",
     "static/media/Persona3Reload.webp": "/GameGallery/static/media/Persona3Reload.f85af20f4e239099a9d9.webp",
     "static/media/SuperMarioRPG.jpg": "/GameGallery/static/media/SuperMarioRPG.69fbe0886b4910c91c3d.jpg",
@@ -62,6 +62,7 @@
     "static/media/VampireSurvivors.jpg": "/GameGallery/static/media/VampireSurvivors.5ecdfb7a13eeb7910dc1.jpg",
     "static/media/FinalFantasyIII.jpg": "/GameGallery/static/media/FinalFantasyIII.ce03114c4e6569111d65.jpg",
     "static/media/Titanfall2.jpg": "/GameGallery/static/media/Titanfall2.775f3834be453864e5b7.jpg",
+    "static/media/MonsterHunterWilds.jpg": "/GameGallery/static/media/MonsterHunterWilds.aad5f6d2919d8ed17ed2.jpg",
     "static/media/GranBlueFantasy.jpg": "/GameGallery/static/media/GranBlueFantasy.302a01aeb854897af3e6.jpg",
     "static/media/steam-logo.png": "/GameGallery/static/media/steam-logo.5a33b08e829099913c8f.png",
     "static/media/DarkSouls.jpg": "/GameGallery/static/media/DarkSouls.4bc6019f0f9eee69f4e9.jpg",
@@ -88,11 +89,11 @@
     "static/media/WhatRemainsOfEdithFinch.jpg": "/GameGallery/static/media/WhatRemainsOfEdithFinch.f0f6ab07b2046e66ede2.jpg",
     "index.html": "/GameGallery/index.html",
     "main.1d8fe83a.css.map": "/GameGallery/static/css/main.1d8fe83a.css.map",
-    "main.a9ce61fc.js.map": "/GameGallery/static/js/main.a9ce61fc.js.map",
+    "main.c051246e.js.map": "/GameGallery/static/js/main.c051246e.js.map",
     "488.f1a2d7ab.chunk.js.map": "/GameGallery/static/js/488.f1a2d7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d8fe83a.css",
-    "static/js/main.a9ce61fc.js"
+    "static/js/main.c051246e.js"
   ]
 }
