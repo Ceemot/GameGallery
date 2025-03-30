@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GameGallery/static/css/main.1d8fe83a.css",
-    "main.js": "/GameGallery/static/js/main.cc7c1e58.js",
+    "main.js": "/GameGallery/static/js/main.7cc251a1.js",
     "static/js/488.f1a2d7ab.chunk.js": "/GameGallery/static/js/488.f1a2d7ab.chunk.js",
     "static/media/Persona3Reload.webp": "/GameGallery/static/media/Persona3Reload.f85af20f4e239099a9d9.webp",
     "static/media/SuperMarioRPG.jpg": "/GameGallery/static/media/SuperMarioRPG.69fbe0886b4910c91c3d.jpg",
@@ -55,6 +55,7 @@
     "static/media/Persona5Royal.jpg": "/GameGallery/static/media/Persona5Royal.90ab838d8366c8e48ae1.jpg",
     "static/media/DragonsDogma2.jpg": "/GameGallery/static/media/DragonsDogma2.fadae1c4a89a14187a87.jpg",
     "static/media/ResidentEvil5.jpg": "/GameGallery/static/media/ResidentEvil5.4880475551163811deae.jpg",
+    "static/media/WuWa.jpg": "/GameGallery/static/media/WuWa.f01f7e48e807399db800.jpg",
     "static/media/FinalFantasyI.jpg": "/GameGallery/static/media/FinalFantasyI.8ddce78bde086f3ea4ce.jpg",
     "static/media/StellarBlade.jpg": "/GameGallery/static/media/StellarBlade.a7643f208942def09b12.jpg",
     "static/media/GodOfWar2.jpg": "/GameGallery/static/media/GodOfWar2.802c9c09ddc27bf7254f.jpg",
@@ -89,11 +90,11 @@
     "static/media/WhatRemainsOfEdithFinch.jpg": "/GameGallery/static/media/WhatRemainsOfEdithFinch.f0f6ab07b2046e66ede2.jpg",
     "index.html": "/GameGallery/index.html",
     "main.1d8fe83a.css.map": "/GameGallery/static/css/main.1d8fe83a.css.map",
-    "main.cc7c1e58.js.map": "/GameGallery/static/js/main.cc7c1e58.js.map",
+    "main.7cc251a1.js.map": "/GameGallery/static/js/main.7cc251a1.js.map",
     "488.f1a2d7ab.chunk.js.map": "/GameGallery/static/js/488.f1a2d7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d8fe83a.css",
-    "static/js/main.cc7c1e58.js"
+    "static/js/main.7cc251a1.js"
   ]
 }
