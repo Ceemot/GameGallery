@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Warframe",
+    "genre": "Action",
+    "dateCompleted": "",
+    "description": "A cooperative free-to-play action game set in a sci-fi universe.",
+    "image": "Warframe.jpg",
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 2,
+    "title": "God of War Ragnarök",
+    "genre": "Action role-playing",
+    "dateCompleted": "",
+    "description": "",
+    "image": "GodOfWar2.jpg",
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 3,
+    "title": "Final Fantasy VII",
+    "genre": "Role-playing, Action",
+    "dateCompleted": "",
+    "description": "",
+    "image": "FinalFantasyVii.jpg",
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
+  }
+]

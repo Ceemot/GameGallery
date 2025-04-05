@@ -6,7 +6,67 @@
     "image": "Miside.jpg",
     "genre": "Horror",
     "dateCompleted": "6th January",
-    "tags": ["Horror", "DatingSim"],
-    "completed100": false
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 2,
+    "title": "Finnish Cottage Simulator",
+    "description": "This is a description of Game 1.",
+    "image": "Finnishcottagesimulator.jpg",
+    "genre": "Simulation",
+    "dateCompleted": "5th February",
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 3,
+    "title": "Borderlands 3",
+    "genre": "Shooting, Action",
+    "dateCompleted": "13th February",
+    "description": "",
+    "image": "Borderlands3.jpg",
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 4,
+    "title": "Split Fiction",
+    "genre": "Shooting, Action",
+    "dateCompleted": "7th March",
+    "description": "",
+    "image": "SplitFiction.jpg",
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 5,
+    "title": "Monster Hunter: Wilds",
+    "genre": "Shooting, Action",
+    "dateCompleted": "9th March",
+    "description": "",
+    "image": "MonsterHunterWilds.jpg",
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 6,
+    "title": "Binding of Isaac",
+    "genre": "Action role-playing",
+    "dateCompleted": "",
+    "description": "",
+    "image": "BindingOfIsaac.jpg",
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 7,
+    "title": "Wuthering waves",
+    "genre": "Action role-playing",
+    "dateCompleted": "",
+    "description": "",
+    "image": "WuWa.jpg",
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   }
 ]
