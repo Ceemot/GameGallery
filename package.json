@@ -2,7 +2,6 @@
   "name": "game-gallery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ceemot.github.io/GameGallery",
   "dependencies": {
     "cra-template": "1.2.0",
     "framer-motion": "^12.0.6",

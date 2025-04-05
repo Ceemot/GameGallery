@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/GameGallery" element={<MainLayout />}>
+        <Route path="/" element={<MainLayout />}>
           <Route
             index
             element={
@@ -25,7 +25,7 @@ function App() {
                 headerTitle={"Currently playing"}
               />
             }
-          ></Route>
+          />
           <Route path="2025/full" element={<Gallery gamesData={full2025} />} />
           <Route
             path="2025/goty"
@@ -61,12 +61,9 @@ function App() {
           />
         </Route>
         <Route
-          path="/"
+          path="*"
           element={
-            <div className="text-white text-center mt-8">
-              Not sure why you're here. Go to{" "}
-              <a href="/GameGallery">/GameGallery</a>.
-            </div>
+            <div className="text-white text-center mt-8">Page not found.</div>
           }
         />
       </Routes>

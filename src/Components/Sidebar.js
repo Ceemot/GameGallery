@@ -1,29 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CeemotGif from "../images/CeemotIcon.gif";
 import { motion, AnimatePresence } from "framer-motion";
 
-// same yearsData definition
 const yearsData = [
   {
     year: 2025,
     subLinks: [
-      { label: "Full List", path: "/GameGallery/2025/full" },
-      { label: "Game of the Year", path: "/GameGallery/2025/goty" },
+      { label: "Full List", path: "/2025/full" },
+      { label: "Game of the Year", path: "/2025/goty" },
     ],
   },
   {
     year: 2024,
     subLinks: [
-      { label: "Full List", path: "/GameGallery/2024/full" },
-      { label: "Game of the Year", path: "/GameGallery/2024/goty" },
+      { label: "Full List", path: "/2024/full" },
+      { label: "Game of the Year", path: "/2024/goty" },
     ],
   },
   {
     year: 2023,
     subLinks: [
-      { label: "Full List", path: "/GameGallery/2023/full" },
-      { label: "Game of the Year", path: "/GameGallery/2023/goty" },
+      { label: "Full List", path: "/2023/full" },
+      { label: "Game of the Year", path: "/2023/goty" },
     ],
   },
 ];
@@ -46,10 +44,10 @@ export default function Sidebar({ isCollapsed, onToggleCollapse }) {
       <div className="flex items-center justify-between px-3 py-4 border-b border-gray-800">
         {/* If not collapsed, show the logo. If collapsed, maybe show a small icon */}
         {!isCollapsed ? (
-          <Link to="/GameGallery">
+          <Link to="/">
             <div
               className="bg-center bg-no-repeat bg-contain w-[180px] h-[60px]"
-              style={{ backgroundImage: `url(${CeemotGif})` }}
+              style={{ backgroundImage: `url(/images/CeemotIcon.gif)` }}
             />
           </Link>
         ) : (
