@@ -68,5 +68,15 @@
     "image": "WuWa.jpg",
     "completed100": false,
     "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 8,
+    "title": "Clair Obscur: Expedition 33",
+    "genre": "Action role-playing",
+    "dateCompleted": "30th April",
+    "description": "",
+    "image": "ClairObscurE33.jpg",
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   }
 ]
