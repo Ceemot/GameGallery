@@ -76,7 +76,7 @@
     "dateCompleted": "30th April",
     "description": "",
     "image": "ClairObscurE33.jpg",
-    "completed100": false,
+    "completed100": true,
     "platformIcon": "steam-logo.png"
   }
 ]

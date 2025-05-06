@@ -1,10 +1,12 @@
 [
   {
     "id": 1,
-    "title": "Game A - 2025 GOTY",
-    "genre": "Action",
-    "dateCompleted": "2025",
-    "description": "Some cool game from 2025",
-    "image": "gameA.jpg"
+    "title": "Clair Obscur: Expedition 33",
+    "genre": "Action role-playing",
+    "dateCompleted": "30th April",
+    "description": "",
+    "image": "ClairObscurE33.jpg",
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   }
 ]
