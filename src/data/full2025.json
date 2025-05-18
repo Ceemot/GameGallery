@@ -78,5 +78,15 @@
     "image": "ClairObscurE33.jpg",
     "completed100": true,
     "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 9,
+    "title": "Nonary Games - Zero Escape",
+    "genre": "Action role-playing",
+    "dateCompleted": "18th May",
+    "description": "",
+    "image": "ZeroEscape.jpg",
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
   }
 ]
