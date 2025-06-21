@@ -88,5 +88,35 @@
     "image": "ZeroEscape.jpg",
     "completed100": true,
     "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 10,
+    "title": "Zero Escape - Virtues Last Reward",
+    "genre": "Action role-playing",
+    "dateCompleted": "20th May",
+    "description": "",
+    "image": "ZeroEscape2.jpg",
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 11,
+    "title": "Like a Dragon - Infinite wealth",
+    "genre": "Action role-playing",
+    "dateCompleted": "20th May",
+    "description": "",
+    "image": "InfiniteWealth.jpg",
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 12,
+    "title": "Chrono Trigger",
+    "genre": "Action role-playing",
+    "dateCompleted": "20th May",
+    "description": "",
+    "image": "ChronoTrigger.jpg",
+    "completed100": false,
+    "platformIcon": "steam-logo.png"
   }
 ]
