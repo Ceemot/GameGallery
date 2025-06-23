@@ -116,6 +116,16 @@
     "dateCompleted": "20th May",
     "description": "",
     "image": "ChronoTrigger.jpg",
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 13,
+    "title": "Elden Ring - Nightreign",
+    "genre": "Action role-playing",
+    "dateCompleted": "20th May",
+    "description": "",
+    "image": "Nighreign.jpg",
     "completed100": false,
     "platformIcon": "steam-logo.png"
   }
