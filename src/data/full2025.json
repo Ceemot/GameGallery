@@ -103,7 +103,7 @@
     "id": 11,
     "title": "Like a Dragon - Infinite wealth",
     "genre": "Action role-playing",
-    "dateCompleted": "20th May",
+    "dateCompleted": "12th June",
     "description": "",
     "image": "InfiniteWealth.jpg",
     "completed100": false,
@@ -113,7 +113,7 @@
     "id": 12,
     "title": "Chrono Trigger",
     "genre": "Action role-playing",
-    "dateCompleted": "20th May",
+    "dateCompleted": "21st June",
     "description": "",
     "image": "ChronoTrigger.jpg",
     "completed100": true,
@@ -123,10 +123,20 @@
     "id": 13,
     "title": "Elden Ring - Nightreign",
     "genre": "Action role-playing",
-    "dateCompleted": "20th May",
+    "dateCompleted": "23rd June",
     "description": "",
     "image": "Nighreign.jpg",
     "completed100": false,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 14,
+    "title": "Zero Escape - Zero's Time Dilemma",
+    "genre": "Action role-playing",
+    "dateCompleted": "28th June",
+    "description": "",
+    "image": "ZeroTimeDilemma.jpg",
+    "completed100": true,
     "platformIcon": "steam-logo.png"
   }
 ]
