@@ -125,7 +125,7 @@
     "genre": "Action role-playing",
     "dateCompleted": "23rd June",
     "description": "",
-    "image": "Nighreign.jpg",
+    "image": "Nightreign.jpg",
     "completed100": false,
     "platformIcon": "steam-logo.png"
   },
@@ -136,6 +136,16 @@
     "dateCompleted": "28th June",
     "description": "",
     "image": "ZeroTimeDilemma.jpg",
+    "completed100": true,
+    "platformIcon": "steam-logo.png"
+  },
+  {
+    "id": 15,
+    "title": "Persona 4 - Golden",
+    "genre": "Action role-playing",
+    "dateCompleted": "8th July",
+    "description": "",
+    "image": "Persona4Golden.jpg",
     "completed100": true,
     "platformIcon": "steam-logo.png"
   }
