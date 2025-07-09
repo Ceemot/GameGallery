@@ -101,6 +101,16 @@
   },
   {
     "id": 11,
+    "title": "Mario Kart World",
+    "genre": "Action role-playing",
+    "dateCompleted": "6th June",
+    "description": "",
+    "image": "MarioKartWorld.png",
+    "completed100": true,
+    "platformIcon": "switch-logo.png"
+  },
+  {
+    "id": 12,
     "title": "Like a Dragon - Infinite wealth",
     "genre": "Action role-playing",
     "dateCompleted": "12th June",
@@ -110,7 +120,7 @@
     "platformIcon": "steam-logo.png"
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "Chrono Trigger",
     "genre": "Action role-playing",
     "dateCompleted": "21st June",
@@ -120,7 +130,7 @@
     "platformIcon": "steam-logo.png"
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "Elden Ring - Nightreign",
     "genre": "Action role-playing",
     "dateCompleted": "23rd June",
@@ -130,7 +140,7 @@
     "platformIcon": "steam-logo.png"
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "Zero Escape - Zero's Time Dilemma",
     "genre": "Action role-playing",
     "dateCompleted": "28th June",
@@ -140,7 +150,7 @@
     "platformIcon": "steam-logo.png"
   },
   {
-    "id": 15,
+    "id": 16,
     "title": "Persona 4 - Golden",
     "genre": "Action role-playing",
     "dateCompleted": "8th July",
